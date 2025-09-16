@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 127378531}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.552, y: 0.74, z: -7.11}
+  m_LocalPosition: {x: -0.552, y: 1.331, z: -7.738}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -241,7 +241,7 @@ Transform:
   m_GameObject: {fileID: 144229847}
   serializedVersion: 2
   m_LocalRotation: {x: 0.18840988, y: 0, z: 0, w: 0.98209053}
-  m_LocalPosition: {x: 0, y: 1.37, z: -10}
+  m_LocalPosition: {x: 0, y: 1.827, z: -11.147}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -403,7 +403,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.21, y: 0.203, z: 0}
-  m_LocalScale: {x: 1.5, y: 0.5, z: 0.1}
+  m_LocalScale: {x: 1.6, y: 1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 127378532}
@@ -626,10 +626,11 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677637660}
-  m_Text: "Press play to see the 2 different animation \n1st one  has root motion.
-    \nNotice that the character moved  to the position\n the animation made him end
-    up at.\n2nd one doesnt and the animation system \ndoesnt move the character so
-    it slides back to where it supposed \nto be according to the anim system"
+  m_Text: "Here we have animated the scale of the cube \nand the angle of the Direcional
+    light.  \nYou can create an animation by opening the Animation window \n\nAnimation
+    window : Window > Animation ( CTRL + 6 )\n\nAnd clicking the create animation
+    after selecting an object to animate\n\n You will notice that when create an
+    animation an object  \nit will create a Animator component on that game object."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
